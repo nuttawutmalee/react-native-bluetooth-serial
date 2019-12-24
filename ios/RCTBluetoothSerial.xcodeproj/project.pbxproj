@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		69CA06071CC43C2900AF6479 /* RCTBluetoothSerial.h in Copy Files */ = {isa = PBXBuildFile; fileRef = 69CA06061CC43C2900AF6479 /* RCTBluetoothSerial.h */; };
-		69CA06091CC43C2900AF6479 /* RCTBluetoothSerial.m in Sources */ = {isa = PBXBuildFile; fileRef = 69CA06081CC43C2900AF6479 /* RCTBluetoothSerial.m */; };
-		69CA06161CC49D5E00AF6479 /* BLE.m in Sources */ = {isa = PBXBuildFile; fileRef = 69CA06101CC49D5E00AF6479 /* BLE.m */; };
-		69CA06171CC49D5E00AF6479 /* CBPeripheral+BTSExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 69CA06131CC49D5E00AF6479 /* CBPeripheral+BTSExtensions.m */; };
+		04BE5B0523B25A0300B245DE /* BLE.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BE5AFE23B25A0300B245DE /* BLE.m */; };
+		04BE5B0623B25A0300B245DE /* RCTBluetoothSerial.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BE5AFF23B25A0300B245DE /* RCTBluetoothSerial.m */; };
+		04BE5B0723B25A0300B245DE /* CBPeripheral+BTSExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BE5B0123B25A0300B245DE /* CBPeripheral+BTSExtensions.m */; };
+		04BE5B0823B25A1100B245DE /* RCTBluetoothSerial.h in Copy Files */ = {isa = PBXBuildFile; fileRef = 04BE5B0423B25A0300B245DE /* RCTBluetoothSerial.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -20,7 +20,7 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				69CA06071CC43C2900AF6479 /* RCTBluetoothSerial.h in Copy Files */,
+				04BE5B0823B25A1100B245DE /* RCTBluetoothSerial.h in Copy Files */,
 			);
 			name = "Copy Files";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -28,14 +28,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		04BE5AFE23B25A0300B245DE /* BLE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLE.m; sourceTree = "<group>"; };
+		04BE5AFF23B25A0300B245DE /* RCTBluetoothSerial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTBluetoothSerial.m; sourceTree = "<group>"; };
+		04BE5B0023B25A0300B245DE /* BLEDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEDefines.h; sourceTree = "<group>"; };
+		04BE5B0123B25A0300B245DE /* CBPeripheral+BTSExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CBPeripheral+BTSExtensions.m"; sourceTree = "<group>"; };
+		04BE5B0223B25A0300B245DE /* BLE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLE.h; sourceTree = "<group>"; };
+		04BE5B0323B25A0300B245DE /* CBPeripheral+BTSExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CBPeripheral+BTSExtensions.h"; sourceTree = "<group>"; };
+		04BE5B0423B25A0300B245DE /* RCTBluetoothSerial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTBluetoothSerial.h; sourceTree = "<group>"; };
 		69CA06031CC43C2900AF6479 /* libRCTBluetoothSerial.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRCTBluetoothSerial.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		69CA06061CC43C2900AF6479 /* RCTBluetoothSerial.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTBluetoothSerial.h; sourceTree = "<group>"; };
-		69CA06081CC43C2900AF6479 /* RCTBluetoothSerial.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTBluetoothSerial.m; sourceTree = "<group>"; };
-		69CA060F1CC49D5E00AF6479 /* BLE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLE.h; sourceTree = "<group>"; };
-		69CA06101CC49D5E00AF6479 /* BLE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLE.m; sourceTree = "<group>"; };
-		69CA06111CC49D5E00AF6479 /* BLEDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEDefines.h; sourceTree = "<group>"; };
-		69CA06121CC49D5E00AF6479 /* CBPeripheral+BTSExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CBPeripheral+BTSExtensions.h"; sourceTree = "<group>"; };
-		69CA06131CC49D5E00AF6479 /* CBPeripheral+BTSExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CBPeripheral+BTSExtensions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +52,13 @@
 		69CA05FA1CC43C2900AF6479 = {
 			isa = PBXGroup;
 			children = (
-				69CA06051CC43C2900AF6479 /* RCTBluetoothSerial */,
+				04BE5B0223B25A0300B245DE /* BLE.h */,
+				04BE5AFE23B25A0300B245DE /* BLE.m */,
+				04BE5B0023B25A0300B245DE /* BLEDefines.h */,
+				04BE5B0323B25A0300B245DE /* CBPeripheral+BTSExtensions.h */,
+				04BE5B0123B25A0300B245DE /* CBPeripheral+BTSExtensions.m */,
+				04BE5B0423B25A0300B245DE /* RCTBluetoothSerial.h */,
+				04BE5AFF23B25A0300B245DE /* RCTBluetoothSerial.m */,
 				69CA06041CC43C2900AF6479 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -63,20 +69,6 @@
 				69CA06031CC43C2900AF6479 /* libRCTBluetoothSerial.a */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		69CA06051CC43C2900AF6479 /* RCTBluetoothSerial */ = {
-			isa = PBXGroup;
-			children = (
-				69CA060F1CC49D5E00AF6479 /* BLE.h */,
-				69CA06101CC49D5E00AF6479 /* BLE.m */,
-				69CA06111CC49D5E00AF6479 /* BLEDefines.h */,
-				69CA06121CC49D5E00AF6479 /* CBPeripheral+BTSExtensions.h */,
-				69CA06131CC49D5E00AF6479 /* CBPeripheral+BTSExtensions.m */,
-				69CA06061CC43C2900AF6479 /* RCTBluetoothSerial.h */,
-				69CA06081CC43C2900AF6479 /* RCTBluetoothSerial.m */,
-			);
-			path = RCTBluetoothSerial;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,6 +110,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 69CA05FA1CC43C2900AF6479;
@@ -135,9 +128,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69CA06091CC43C2900AF6479 /* RCTBluetoothSerial.m in Sources */,
-				69CA06161CC49D5E00AF6479 /* BLE.m in Sources */,
-				69CA06171CC49D5E00AF6479 /* CBPeripheral+BTSExtensions.m in Sources */,
+				04BE5B0623B25A0300B245DE /* RCTBluetoothSerial.m in Sources */,
+				04BE5B0523B25A0300B245DE /* BLE.m in Sources */,
+				04BE5B0723B25A0300B245DE /* CBPeripheral+BTSExtensions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,7 +242,12 @@
 		69CA060D1CC43C2900AF6479 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../react-native/React/**";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				HEADER_SEARCH_PATHS = (
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../../React/**/**",
+					"$(SRCROOT)/../../react-native/React/**",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -259,7 +257,12 @@
 		69CA060E1CC43C2900AF6479 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../react-native/React/**";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				HEADER_SEARCH_PATHS = (
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../../React/**/**",
+					"$(SRCROOT)/../../react-native/React/**",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
