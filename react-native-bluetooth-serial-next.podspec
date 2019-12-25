@@ -15,9 +15,8 @@ Pod::Spec.new do |s|
   s.platforms    = { :ios => "9.0" }
   s.source       = { :git => "https://github.com/nuttawutmalee/react-native-bluetooth-serial-next.git", :tag => "#{s.version}" }
 
-  s.source_files = "ios/**/*.{h,m,swift}"
-  s.requires_arc = true
-
   s.dependency "React"
+
+  s.source_files = "ios/**/*.{h,m,swift}"
 end
 
